@@ -1,0 +1,498 @@
+Getting Started
+Hello there! Welcome to your first step toward becoming a Python developer. Exciting
+isn’t it? Whether you’re just beginning to learn how to program, or have experience in
+other languages, the lessons taught in this book will help to accelerate your goals. As a
+Python instructor, I can guarantee you that it’s not about where you start, it’s about how
+hard you’re willing to work.
+At the time of writing this book, my daily job is a coding bootcamp instructor where I
+teach students how to go from zero programming experience to professional developers
+in just ten weeks. This book was designed with the intent to bring a bootcamp-based
+approach to text. This book aims to help you learn subjects that are valuable to becoming
+a professional developer with Python.
+Each subsequent chapter will have an overview and a brief description of what we’ll
+cover that week. This week we’ll be covering all the necessary basics to get us jump
+started. Following the age old saying, “You must learn to walk before you can run,” we
+must understand what our tools are and how to use them before we can begin coding.
+Overview
+• Understanding why and how this book works
+• Installing Python and Anaconda
+• Understanding how to use these new tools
+• Understanding how to use the terminal
+• Writing your first Python program
+Without further ado, let’s get started, shall we?
+2
+Monday: Introduction
+Almost every programmer remembers that “Aha!” moment, when everything clicked
+for them. For me that was when I picked up Python. After years of computer science
+education, one of the best methods I found to learn was by building applications and
+applying the knowledge you learn. That’s why this book will have you coding along
+rather than reading about the theory behind programming. Python makes it simple to
+pick up concepts otherwise difficult in other languages. This makes it a great language
+for breaking into the development industry!
+You may have already noticed that the structure of this book is different than most.
+Instead of chapters, we have each topic separated by weeks or days. Notice the current
+header for the section. This is part of the bootcamp-based approach, so that you may set
+goals for each day. There will be two ways to follow along this book:
+1. Over the course of ten weeks
+2. Over the course of ten days
+If you’d like to follow the 10-week approach, then think of each chapter as a weekly
+goal. All chapters are broken up further into daily segments Monday to Friday. The
+first four days, Monday through Thursday, will introduce new concepts to understand.
+Friday, or better known as Project Day, is where we will create a program together
+based on the lessons learned throughout the week. The focus is that you set aside 30–60
+minutes each day to complete each daily task.
+If you’re eager enough to try the bootcamp style, where you learn all the material
+in ten days, then think of each chapter as a single day. Granted, you must know that in
+order to complete this book in ten days, you will need to dedicate around 8 hours per
+day, which is a typical day for coding bootcamp students. In bootcamps (like the one I
+taught), we go over several concepts daily, and each subsequent day we reiterate the
+topics learned from previous lessons. This helps to accelerate the process of learning
+each concept.
+What Is Python?
+Python is an interpreted, high-level, general-purpose programming language. To
+understand what each of these descriptions mean, let’s make a few comparisons:
+Chapter 1 Getting Started
+3
+• Low Level vs. High Level: Refers to whether we program using
+instructions and data objects at the level of the machine or whether
+we program using more abstract operations that have been provided
+by the language designer. Low-level languages (like C, C++) require
+you to allocate and manage memory, whereas Python manages
+memory for us.
+• General Purpose vs. Targeted: Refers to whether the operations of
+the programming language are widely applicable or are fine-tuned to
+a domain. For example, SQL is a targeted language that is designed
+to facilitate extracting information from relational databases, but you
+wouldn’t want to use it to build an operating system.
+• Interpreted vs. Compiled: Refers to whether the sequence of
+instructions written by the programmer, called “source code,” is
+executed directly (by an interpreter) or whether it is first converted
+(by a compiler) into a sequence of machine-level primitive
+operations. Most applications designed with Python are run through
+the interpreter, so errors are found at runtime.
+Python also emphasizes code readability and uses whitespace to separate snippets of
+code. We’ll learn more about how whitespace in Python works as we get into our lessons,
+but for now just know that Python is a great first language to break into the computer
+science industry.
+Why Python?
+I could go on about why Python is so amazing, but a simple Google search would do
+that for me. Python is one of the easier languages to learn. Notice I said “easier” and
+not “easy”… that’s because programming is still difficult, but Python reads closer to
+the English language than most other languages. This is one of the benefits of learning
+Python, because concepts that you learn from this book are still applicable to other
+languages. Python is also one of the most sought-after skills in the technology industry
+today, used by companies such as Google, Facebook, IBM, etc. It’s been used to build
+applications like Instagram, Pinterest, Dropbox, and much more!
+Chapter 1 Getting Started
+4
+It’s also one of the fastest growing languages in 2019, climbing to the top 3 languages
+to learn for the future.1
+ How well does it pay though? According to Indeed.com, the
+average salary in 2018 was around $117,000 USD!
+2
+ That’s a lot of monopoly money!
+One of the biggest reasons for learning Python, though, must be the use of the
+language itself. It’s used in several different industries: front-end development, back-end
+development, full-stack, testing, data analytics, data science, web design, etc., which
+makes it a useful language.
+Why This Book?
+Let’s start with the main reason for wanting to read this book. The material taught
+throughout this book has a proven track record. I’ve personally used this exact
+organization approach to help get my students well-paying positions across a variety of
+industries. The structure of this curriculum has been repeatedly improved over the years
+to stick with current industry trends.
+One of the next great strengths of this book vs. its competitors is how the concepts
+are taught. I won’t bore you with details; instead we’ll build small- and large-scale
+applications together throughout the course of this book. The best way to learn is often
+by doing! Especially when it comes to programming, one of the lessons I often tell
+students is to just try writing the code, and if it breaks, fix it. You won’t be able to learn if
+you don’t try to break things!
+Lastly, this book will not only teach you how to program but how to think like a
+programmer. At the beginning of each week, I’ll challenge you, and by the end of the
+lesson, you’ll be able to understand the approach you need to take. You can always tell
+the difference between those who are only able to program and those that are proven
+developers.
+Who This Book Is For?
+It’s always good to understand what you’re getting into before you start reading the book.
+To want to read a book, you first must realize if the book itself is designed for you. If you
+can answer yes to any of the following questions, then this book is for you:
+1
+www.tiobe.com/tiobe-index/
+2
+www.indeed.com/salaries/Python-Developer-Salaries
+Chapter 1 Getting Started
+5
+• Do you have experience in other programming languages but want to
+pick up a high-level language?
+• Have you never programmed before but are eager to learn?
+• Did you take computer science courses previously, but they just
+didn’t help you learn how to create applications?
+• Do you want to make a career change?
+• Have you tried to learn languages previously but couldn’t because of
+the difficulty of the language?
+• Have you programmed in Python before but want to improve your
+abilities and learn new tools?
+This book is designed for a wide array of readers, no matter your background. The
+real question is on you, “How hard are you willing to work?” The concepts taught in
+this book can benefit anyone willing to learn. Even if you’ve programmed in Python
+before, this book can still help you become a stronger developer.
+What You’ll Learn
+This book was created to be used for bootcamp classes designed in teaching Python.
+You can expect to cover necessary information that would be required of you on the job
+as a Python developer. These concepts will give you the ability to go forward with your
+education in programming. At the end of each chapter, we’ll use the concepts covered
+to create a variety of real-world applications. After all, we’re not just focused on Python
+here, we’re trying to build you up to become a better developer.
+Tomorrow, we’ll find out how to install the necessary software that this book
+uses. If you already have Anaconda and Python on your machine, you can skip to
+Wednesday’s lesson.
+Chapter 1 Getting Started
+6
+Tuesday: Setting Up Anaconda and Python
+Today, we’re going to get our software setup. Throughout this book we’ll be using a
+software platform called Anaconda, an integrated development environment (IDE)
+called Jupyter Notebook, and the language of Python itself. This book will strictly
+cover Python 3; however, at times you may see me mention subtle differences between
+versions 2 and 3. Let’s go ahead and download and install these first, then I’ll get into
+what each of them are.
+Cross-Platform Development
+Python runs on all major operating systems, making it a cross-platform language. This
+means that you can write code on one operating system and work with someone that
+uses a completely different machine than you. If both machines have Python installed,
+they should both be able to run the program.
+Installing Anaconda and Python for Windows
+Most OS X and Linux operating systems already come with Python installed; however,
+you still need to download Anaconda. For Windows users, Python usually isn’t included,
+but it gets installed with Anaconda. Use the following steps to install Anaconda properly:
+1. Open your browser and type www.anaconda.com/distribution/.
+2. Click the download button in the header (see Figure 1-1).
+Figure 1-1. Anaconda Download Page
+3. Once you are on the next page, make sure you select the proper
+operating system on the header at the top. Click that button
+(see Figure 1-2).
+Chapter 1 Getting Started
+7
+Figure 1-2. Selecting an operating system
+4. Next, click the download button for the Python 3.7 (or greater)
+section (see Figure 1-3).
+Figure 1-3. Downloading Python 3.x version
+5. This step is strictly for Windows users… Once the installer fully
+downloads, go ahead and run it. Use all defaults except for one
+option. When you get to the page in Figure 1-4, make sure you
+click the “add to path” option. This will let us access Anaconda
+through our terminal.
+Figure 1-4. Add to Path
+Chapter 1 Getting Started
+8
+6. For all options (besides step 5 for Windows users), use default
+settings. Then go ahead and click the “Install” button and let
+Anaconda finish installing.
+What Is Anaconda?
+Anaconda is a Python and R distribution software. It aims to provide everything you
+need for Python “out of the box.” Its primary use is for data analytics and data science;
+however, it’s a superb tool for learning as well. Upon downloading, it includes
+• The core Python language and libraries
+• Jupyter Notebook
+• Anaconda’s own package manager
+These are just a few features out of the many that Anaconda comes with; however,
+these are the ones we’ll be using throughout the book. The first feature in this list is the
+Python language and included packages that Python has access to. Libraries are prewritten code by another developer that you can use for your own benefit. The second
+feature is talked about in the next section. Lastly, Anaconda has a way of managing
+environments for us. This is a complex topic that we’ll get into in later weeks.
+What Is Jupyter Notebook?
+It is an open-source integrated development environment (IDE) that allows you
+to create and share documents that contain live code, equations, visualizations, and
+narrative text. For us, it’s essentially our notebook, where we will code along together. If
+you’re not familiar with IDEs, they are simply a tool for developers to code in. Think of
+them as a canvas for artists. It also allows you to write snippets of code without needing
+to know a lot about Python. We’ll get more into Jupyter Notebook for Thursday’s lesson.
+In today’s lesson, we installed Anaconda, Python, and Jupyter Notebook. Tomorrow,
+we’ll learn why and how to use the terminal.
+Chapter 1 Getting Started
+9
+Wednesday: How to Use the Terminal
+Depending on your operating system, you’re going to be using the Command Prompt
+(Windows) or the Terminal (Linux and OS X). From this point forward, I’m going to
+refer to it as the “terminal,” so just keep that in mind if you’re on Windows. The terminal
+is a tool for users to be able to issue commands to the computer through basic text. For
+most of this book, we will use the terminal to either test our Python code or run Jupyter
+Notebook. Today we’ll be learning basic commands and how to use the Python shell. To
+get started, let’s open the terminal. As each operating system will look different, terminal
+sessions will be defined in code by the “$”. Any text you see after that symbol will be what
+you need to write into the terminal yourself.
+Changing Directories
+While inside the terminal, you’ll often want to move around from folder to folder. This
+gives you the power to navigate around your computer. It’s important to understand how
+to do this, as it’s always going to be what we do to start up Jupyter Notebook. In order to
+change directories, you need to type in “cd” followed by the folder name you wish to go to.
+$ cd desktop
+If you need to go backward, out of a folder, then you’ll want to use two dots (“..”):
+$ cd ..
+Often, throughout this book, you’ll need to traverse through several directories to
+get into a project folder. When you use the “cd” command, you can go as far forward or
+backward as you select, you just need to specify the correct path to the folder you wish to
+go to. Take the following code, for instance…
+$ cd desktop/../desktop
+We’re going into the desktop directory, but then going back out, only to go back into
+it. There’s nothing wrong with this; however, this is just an example that the computer will
+follow the path that you specify. Normally we would just cd into the desktop and be done.
+Chapter 1 Getting Started
+10
+Checking the Directory
+To check the directory that you’re currently in, just look to the left of where you can write
+these lines of text. For Windows users, the directory you’re currently in will be the ending
+URL that you’re on, as marked in bold as follows:
+C:\Users\name\desktop>
+The last folder name is the “desktop,” which means that I’m currently in the directory
+for my desktop. If I were to create any files or folders, they would be created directly on
+there. To check which directory you’re in for Linux, it will be the name just to the left of
+the “$”:
+user@user:~/Desktop$
+For OS X users, it’ll be to the left of your username (who you’re logged in as):
+User-Macbook-Pro:Desktop Name$
+Making Directories
+Though it’s certainly okay to go into your file explorer, right-click, and select “create new
+folder,” it’s good to know how to create a new folder through the terminal session itself.
+Make sure that you’re in the “desktop” directory that we “cd” into previously. Then write
+the following line:
+$ mkdir python_bootcamp
+This will create a new folder called “python_bootcamp” on your desktop. We’ll be
+using this folder from here on out to store our lessons so that we stay organized.
+Creating Files
+Again, it’s easier to create files by going into your file explorer. However, sometimes we
+need to create files in terminal depending on the file type. Before we create a new file,
+however, let’s “cd” into our “python_bootcamp” folder that we created:
+$ cd python_bootcamp
+Chapter 1 Getting Started
+11
+Now, for Windows users, we’ll need to type the following:
+$ echo.>example.txt
+Or if you’re on Linux/OSX:
+$ touch example.txt
+You should now be able to see the sample.txt file in file explorer.
+Note If you don’t see the “.txt ” extension, it’s because you don’t have
+“extensions” checked in your preferences within file explorer.
+Checking a Version Number
+The terminal is always a great way to check version numbers of certain software that we
+download. Since we already downloaded and installed Python, let’s run the following
+code:
+$ python --version
+Clearing the Terminal Output
+Sometimes the terminal gets full of useless output or just becomes tough to read. When
+you want to clear the output, you need to write the following line (for Windows):
+$ cls
+For Linux/OSX users, you’ll need to type in the following:
+$ clear
+Chapter 1 Getting Started
+12
+Using the Python Shell
+Python is a language that requires what is called an “interpreter” to read and run the code we
+create. When the Python shell is activated, it acts as a local interpreter within the terminal
+session that is open. While it’s open, we can write any Python that we wish to execute.
+This is generally great for practicing small snippets of code, so that you don’t have to open
+an IDE and run an entire file. To start the Python shell up, while we are in the directory of
+“python_bootcamp”, simply type “python” and hit enter. The following will appear:
+$ python
+Python 3.7.0 (v3)
+Type "help", "copyright", "credits" or "license" for more information
+>>>
+The output will show the Python version you’re currently running. You’ll notice the
+three arrows (>>>), this means that you’re now working within the Python interpreter.
+While in the Python shell, everything you write is interpreted as the Python language. If
+for some reason you receive the following response:
+$ python
+'python' is not recongized as an internal or external command, operable
+program or batch file.
+This means that Anaconda and Python were not installed properly. I’d advise you
+to go back to yesterday’s lesson and reinstall Anaconda following the step-by-step
+instructions given. You may need to restart your computer as well.
+Writing Your First Line of Python
+Up to this point, we haven’t done any programming. Generally, I’m against not diving
+right into coding myself; however, these basic setup instructions are crucial to getting
+started as a developer. Although we haven’t gone over any Python just yet, while the
+interpreter is still running, next to the arrows write the following code and hit enter:
+>>> print("Hello, buddy!")
+Chapter 1 Getting Started
+13
+There you go! You’ve just written your first line of Python and should see the
+following output:
+>>> print("Hello, buddy!")
+Hello, buddy!
+>>>
+Exiting the Python Shell
+Now, I’ll get to explaining what you just wrote in a later lesson, but for now let’s get out of
+the Python shell and finish today’s lesson by writing the following line and hitting enter:
+>>> exit( )
+Today’s lesson was all about operating and understanding the terminal. This is
+an important skill for several developer positions, especially those that use Linux
+operating systems. Tomorrow we’ll discuss how to operate Jupyter Notebook!
+Thursday: Using Jupyter Notebook
+Jupyter Notebook is going to be where we spend most of our time throughout this book.
+It’s a powerful tool that is used in the data science community and makes it easier for us
+to learn Python because we can solely focus on writing code. Today’s lesson is all about
+how to use this tool, the cells, and how to open it.
+Note Each lesson will always ask you to open Jupyter Notebook, so keep this
+page handy in case you need to come back to it.
+Chapter 1 Getting Started
+14
+Opening Jupyter Notebook
+Jupyter Notebook can be opened through the Anaconda program; however, I want you
+to start getting used to the terminal and how to operate it, so we’re not going to open
+it through Anaconda. Instead, we’re going to do this through the terminal. The two
+benefits to this are
+• Jupyter Notebook will open in the same directory that our terminal is in
+• Knowing how to use terminal will help you as a developer
+If you still have the terminal session from yesterday open, skip the first step.
+Step 1: Open Terminal
+We need to open terminal and “cd” into our “python_bootcamp” directory:
+$ cd desktop/python_bootcamp
+Step 2: Writing the Jupyter Notebook Command
+Opening Jupyter Notebook through the terminal is as simple as typing the name of the tool:
+$ jupyter notebook
+Be sure that you are in the proper directory before typing the code; otherwise it will
+open wherever your terminal directory is currently located. Often, this will open Jupyter
+Notebook up in your user folder. Jupyter Notebook will open in your browser.
+Creating a Python File
+Anytime we start a new week, we’ll end up creating a new file to work from. To do so,
+it’s simple; just click the “New” button on the right side of the screen when Jupyter
+Notebook first opens. Then select “Python 3” (see Figure 1-5).
+Chapter 1 Getting Started
+15
+Once you click the “Python 3” option, a new tab will open as this file. Click the name
+at the top to rename it, and let’s name this file “Week_01” (see Figure 1-6).
+Figure 1-5. Creating a Python 3 notebook
+Figure 1-6. Changing the file name
+Figure 1-7. Notebook cells highlighted in red
+Jupyter Notebook Cells
+Now that we’ve opened up Jupyter Notebook and created a file that we can work with,
+let’s talk about cells. I’m not talking about biology; rather, in this notebook you’ll notice
+the empty white rectangle section below the tools (see Figure 1-7). These are known as
+“cells.”
+Chapter 1 Getting Started
+16
+Each cell is where we can write our code, or even use the Markup language. Let’s
+write some markup to begin with.
+1. Click in the first cell, so the surrounding area glows blue.
+2. In the toolbar, you’ll notice a drop-down menu that says “code.”
+Click the drop-down, and select “markdown” instead.
+3. Within the cell write the following:
+# Week 01
+Note When writing markup, the number of hashtags in a row relates to the size
+of the heading. Like HTML header tags.
+4. Let’s now run the cell to execute the code. To do this, you hold
+shift and press enter (the cell must be selected).
+5. When you use shift + enter, a new cell will appear below the
+current one.
+Within this newly created cell, let’s go ahead and write a simple line of Python to see
+how the output works. Let’s go ahead and write the following:
+# this is python
+print("Hello, buddy!")
+Go ahead and run the cell. It will run all the code within the cell and output the
+result. Again, don’t worry about the actual Python, this lesson is about how Jupyter
+Notebook cells run.
+For the rest of this book, we’ll be writing our code inside of Jupyter Notebook files.
+I’ll be using markdown to specify certain sections, so be sure you’re comfortable with
+running cells, writing markdown, and creating a new Jupyter Notebook file before
+moving on.
+Chapter 1 Getting Started
+17
+Today we learned how to use Jupyter Notebook and what we can do with cells. In
+tomorrow’s lesson, we’ll build our first Python application!
+Friday: Creating Your First Program
+Every Friday will be known as “Project Day,” where we will build a small application
+or game together, which uses the concepts learned throughout the week. This week,
+however, I’m just going to have you write some code into a cell so that you can see the
+power of Python. Since we haven’t gone over any Python just yet, I wanted you to be able
+to experience what we will learn over the upcoming weeks. The code your about to write
+will use concepts from weeks 2, 3, and 4. By the end of these weeks, you’ll be able to
+fully understand each line of the following code and make your own tweaks to make the
+program more challenging.
+We’re going to be working from the Jupyter Notebook file from yesterday’s lesson. If you
+had closed out of the program since coming back to this book, go ahead and reopen the file.
+Note If you forgot how to open Jupyter Notebook, go back to yesterday’s lesson
+and redo the steps, except for creating a file.
+Line Numbers Introduced
+For larger projects, it becomes tough to follow along with books sometimes. For this
+project, and all other lessons going forward, I’ll be implementing line numbers. This will
+make it easier for you to follow along and check if you wrote the code correctly:
+1| ←
+Line numbers will now appear on the left side of all cells, as we will need to write all
+this code within a single cell. Be sure to pay attention to these numbers, as you may see
+them jump a couple lines:
+1| # this is the first line in the cell
+5| # this is the fifth line in the cell
+Chapter 1 Getting Started
+18
+This means that you should write the second line shown, on the 5th line.
+Note Turn lines on by pressing “L” after clicking the cell’s side.
+Creating the Program
+The first thing that we need to do is create a new cell below the current cell in our file. In
+order to do that, simply follow these steps:
+1. Click the last cell in the file.
+2. While it is highlighted, go to the “Insert” tab in the menu bar, and
+click “Insert Cell Below.”
+We now have a cell to work with for our project. If you’d like to create a markdown
+cell that says “Guessing Game” as the header, feel free to look back at the previous
+lesson and how we did it before. Within that new cell, let’s go ahead and write the
+following code:
+ 1| # guessing game
+ 2| from random import randint
+ 3| from IPython.display import clear_output
+ 5| guessed = False
+ 6| number = randint(0, 100)
+ 7| guesses = 0
+ 9| while not guessed:
+10| ans = input("Try to guess the number I am thinking of!")
+ # use tab to indent
+12| guesses += 1
+14| clear_output( )
+16| if int(ans) == number:
+17| print("Congrats! You guessed it correctly.")
+ # use tab twice to indent twice
+18| print( "It took you { } guesses!".format(guesses) )
+19| break
+20| elif int(ans) > number:
+Chapter 1 Getting Started
+19
+21| print("The number is lower than what you guessed.")
+22| elif int(ans) < number:
+23| print("The number is greater than what you guessed.")
+This program is not perfect by any means, but it’s certainly fun to try and guess
+the number that the computer is thinking of. Now, I know that this looks like a
+foreign language to you right now, but over the next couple of weeks, each line will
+begin to make sense. Eventually you’ll even be able to make your own changes and
+improvements to the game! What I want you to do now is run the cell and play the game.
+Begin to think like a developer, and ask yourself these questions while you play:
+• What improvements can I make?
+• What makes the program crash?
+• What would I do better?
+Don’t be afraid if you get an error, it’s all part of the growth of becoming a developer!
+The fun part about testing the code that you write is that you try to break it. As we go
+forward, I’ll challenge you with questions about why a line in the code works the way it
+does. When this happens, try to think about it for a couple minutes, even try to Google
+the answer. As a developer you’ll find a lot of what you do is Googling a problem. This is
+what separates good developers from great ones… the ability to figure out problems on
+their own. With the rest of the lessons in this book, you’ll be well on your way to figuring
+out problems without my help.
+Final Output
+All source code for each week will be located within the Github repository for this book.
+You may find the link to that repository in the front of the book. To find the specific
+code for this week, simply open or download the “Week_01.ipynb” file from the Github
+repository. If you ran into errors along the way, be sure to reference what you wrote with
+the code in this file to see where you went wrong.
+Today we were able to see our first Python program in action. Granted you may not
+understand what is going on, I believe it’s crucial that you see the power of Python.
+As we go forward, feel free to come back to this program and make your own
+improvements to it. After all the only way you get better is by doing!!!
+Chapter 1 Getting Started
+20
+Weekly Summary
+I know this week was a bit slow, but it is a crucial week in the process. We covered how to
+download the necessary tools, how to use them, and how to use the terminal itself. These
+topics are important in understanding the content going forward and will help set you
+up for success.
+At the end of this week, we ended up programming a fun guessing game together,
+that I hope you tried to break and play around with. As a developer it’s important to
+want to break a program, so that you may improve it. In the upcoming week, the real fun
+begins. We’ll start to learn the basics of Python and eventually write a small program
+together
